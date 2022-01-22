@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy
+  - Item
+  - Obstacle
+  - Platform
+  - Boss
+  - Shooter
+  - Bullet
+  - Wall
+  - Ground
+  - Dead
+  - Sign
+  - Cannon
+  - FxTemporaire
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Enemy
+  - Item
+  - Parts
+  - Player
+  - Effect
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 1408983323
+    locked: 0
+  - name: Middleground
+    uniqueID: 3602895515
+    locked: 0
+  - name: Foreground
+    uniqueID: 3412031045
+    locked: 0

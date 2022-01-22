@@ -1,0 +1,31 @@
+fileFormatVersion: 2
+guid: baabb7d64d7a1b343ba56c44a4b3a2b5
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - silverCoin: {instanceID: 0}
+  - goldCoin: {instanceID: 0}
+  - heart: {instanceID: 0}
+  - healthPotion: {instanceID: 0}
+  - dustRunPrefabs: {instanceID: 0}
+  - dustFallPrefabs: {instanceID: 0}
+  - attackEffect: {instanceID: 0}
+  - keyPrefabs: {instanceID: 0}
+  - part1: {instanceID: 0}
+  - part2: {instanceID: 0}
+  - part3: {instanceID: 0}
+  - part4: {instanceID: 0}
+  - audioAttack: {instanceID: 0}
+  - myRigidbody: {instanceID: 0}
+  - prfHpBar: {fileID: 4330046451246150617, guid: 988874a19782ab641a089fdd776fd32d,
+      type: 3}
+  - nowHpbar: {instanceID: 0}
+  - hpBar: {instanceID: 0}
+  - hudDamageText: {fileID: 1691282104104477173, guid: d3d71f70dc8bf6549b07b1d52bf3adb8,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
