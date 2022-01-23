@@ -1,9 +1,11 @@
-﻿using System;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using GooglePlayGames;
+using GooglePlayGames.BasicApi;
+using UnityEngine.SocialPlatforms;
 
 public class LeaderBoard : MonoBehaviour
 {
@@ -26,6 +28,13 @@ public class LeaderBoard : MonoBehaviour
         entry_TouchUp.eventID = EventTriggerType.PointerUp;
         entry_TouchUp.callback.AddListener((data) => { TouchUp(); });
         eventTrigger.triggers.Add(entry_TouchUp);
+
+        // authenticate user:
+        PlayGamesPlatform.Instance.Authenticate(SignInInteractivity.CanPromptOnce, (result) => {
+            // handle results
+        });
+
+        PlayGamesPlatform.Activate();
     }
 
     private void TouchDown()
@@ -40,7 +49,6 @@ public class LeaderBoard : MonoBehaviour
 
     public void RankButtonClick()
     {
-        PlayGamesPlatform.Activate();
         Social.localUser.Authenticate(AuthenticateHandler);
     }
 
